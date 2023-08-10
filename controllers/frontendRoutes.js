@@ -6,7 +6,7 @@ router.get('/', async (req, res) => {
         const birdData = await Bird.findAll()
         const birds = birdData.map((bird) => bird.get({ plain: true }))
         console.log(birds);
-        res.render("home", {birds: birds})
+        // res.render("home", {birds: birds})
     }
     catch (err) {
         console.log(err);
