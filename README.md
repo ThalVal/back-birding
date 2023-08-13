@@ -14,6 +14,14 @@ Run mysql server locally (-d for detached mode)
 docker compose up -d 
 ```
 
+Start application 
+
 ```bash
 npm run start
+```
+
+Run Application in Dev mode
+
+```bash
+npm run dev
 ```
