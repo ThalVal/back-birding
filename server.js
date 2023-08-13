@@ -2,7 +2,7 @@ const express = require('express');
 const routes = require('./controllers');
 const exphbs = require("express-handlebars")
 const path = require("path")
-const {User, Bird} = require('./models');
+const {Bird} = require('./models');
 const sequelize = require('./config/connection');
 
 //deploying again
