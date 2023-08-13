@@ -4,18 +4,18 @@ require('dotenv').config();
 let sequelize;
 
 if (process.env.JAWSDB_URL) {
-  sequelize = new Sequelize(process.env.JAWSDB_URL);
+    sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {
-  sequelize = new Sequelize(
-    process.env.DB_NAME,
-    process.env.DB_USER,
-    process.env.DB_PASSWORD,
-    {
-      host: '127.0.0.1',
-      dialect: 'mysql',
-      port: 3306
-    }
-  );
+    sequelize = new Sequelize(
+        process.env.MYSQL_DATABASE,
+        process.env.MYSQL_USER,
+        process.env.MYSQL_PASSWORD,
+        {
+            host: process.env.MYSQL_HOST,
+            dialect: 'mysql',
+            port: process.env.MYSQL_PORT
+        }
+    );
 }
 
 module.exports = sequelize;
