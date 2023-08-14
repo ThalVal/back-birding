@@ -25,3 +25,6 @@ Run Application in Dev mode
 ```bash
 npm run dev
 ```
+
+## Contributers
+thank you to https://github.com/Ricoledan for being my tutor for this project
