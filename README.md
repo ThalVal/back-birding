@@ -27,4 +27,4 @@ npm run dev
 ```
 
 ## Contributers
-thank you to https://github.com/Ricoledan for being my tutor for this project
+thank you to [Ricoledan](https://github.com/Ricoledan) for being my tutor for this project
