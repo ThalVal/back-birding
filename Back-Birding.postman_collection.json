@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://birding-b6b6fd8e3a47.herokuapp.com/",
+					"raw": "localhost:3001/api/birds",
 					"host": [
 						"localhost"
 					],
@@ -31,7 +31,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://birding-b6b6fd8e3a47.herokuapp.com/",
+					"raw": "localhost:3001/api/birds/1",
 					"host": [
 						"localhost"
 					],
@@ -60,7 +60,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://birding-b6b6fd8e3a47.herokuapp.com/",
+					"raw": "localhost:3001/api/birds/",
 					"host": [
 						"localhost"
 					],
@@ -89,7 +89,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://birding-b6b6fd8e3a47.herokuapp.com/",
+					"raw": "localhost:3001/api/birds/1",
 					"host": [
 						"localhost"
 					],
@@ -109,7 +109,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://birding-b6b6fd8e3a47.herokuapp.com/",
+					"raw": "localhost:3001/api/birds/:id",
 					"host": [
 						"localhost"
 					],
